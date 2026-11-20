@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OpenMW</string>
+    <string name="general_settings">Настройка</string>
+    <string name="start_game_label">Запустить игру</string>
+    <string name="closeDrawer">Навигация</string>
+    <string name="openDrawer">Навигация закрыта</string>
+    <string name="game_files">Файлы игры</string>
+    <string name="pref_graphicsLibrary">Библиотека графического API</string>
+    <string name="pref_graphicsLibrary_default">gles2</string>
+    <string name="pref_advanced">Дополнительно</string>
+    <string name="pref_graphics">Графика</string>
+    <string name="pref_commandLine">Пользовательские аргументы командной строки</string>
+    <string name="pref_envLine">Пользовательские переменные окружения</string>
+    <string name="pref_nohighp">Средняя точность шейдеров</string>
+    <string name="pref_nohighp_summary">Использует среднюю точность вместо высокой; доступно только с набором шейдеров «Modified».</string>
+    <string name="pref_ui">Интерфейс</string>
+    <string name="pref_textureShrinking">Уменьшение текстур</string>
+    <string name="pref_textureShrinking_default">none</string>
+    <string name="pref_shadersDir">Наборы шейдеров</string>
+    <string name="pref_shadersDir_default">none</string>
+    <string name="pref_gamma">Гамма</string>
+    <string name="pref_uiScaling">Масштаб интерфейса</string>
+    <string name="pref_font_size">Размер шрифта</string>
+    <string name="pref_truetype_fonts_title">Чёткие шрифты</string>
+    <string name="pref_truetype_fonts_summary">Чёткие шрифты любого размера. Нужны для размеров больше 18.</string>
+    <string name="uiScaling_auto">Авто (%1$.2f)</string>
+    <string name="pref_screen_keeper">Не выключать экран</string>
+    <string name="pref_touchpadSensitivity">Чувствительность виртуальной сенсорной панели</string>
+    <string name="action_reset_config">Сбросить статические файлы конфигурации</string>
+    <string name="action_reset_user_config">Сбросить файлы конфигурации пользователя</string>
+    <string name="action_reset_user_resources">Сбросить пользовательские ресурсы</string>
+    <string name="action_reset_screen_controls">Сбросить экранное управление</string>
+    <string name="action_show_screen_controls">Экранное управление</string>
+    <string name="pref_hide_controls">Скрыть экранные кнопки</string>
+    <string name="pref_handheld_mode_title">Портативный режим</string>
+    <string name="pref_handheld_mode_summary">Для встроенного управления: без экранных кнопок, L1 — радиальное меню, R1 — дневник, Select — отдых.</string>
+    <string name="config_was_reset">Статическая конфигурация сброшена к значениям по умолчанию</string>
+    <string name="user_config_was_reset">Конфигурация пользователя сброшена к значениям по умолчанию</string>
+    <string name="user_resources_was_reset">Пользовательские ресурсы сброшены к значениям по умолчанию</string>
+    <string name="pref_lang">Настройки языка</string>
+    <string name="pref_encoding">Язык игры</string>
+    <string name="pref_encoding_default">win1252</string>
+    <string name="btn_opacityPlus">Прозрачность+</string>
+    <string name="btn_opacityMinus">Прозрачность-</string>
+    <string name="btn_sizePlus">Размер+</string>
+    <string name="btn_sizeMinus">Размер-</string>
+    <string name="btn_resetControlsLayout">Сбросить по умолчанию</string>
+    <string name="pref_physicsFPS2">FPS физики</string>
+    <string name="pref_framerate_limit">Ограничение частоты кадров</string>
+    <string name="pref_framerate_limit_default">60</string>
+    <string name="pref_physicsFPS2_default">30</string>
+    <string name="btn_back">Назад</string>
+    <string name="pref_customResolution">Пользовательское разрешение</string>
+    <string name="pref_display_cutout_area">Отображать в области выреза</string>
+    <string name="mods">Модификации игры</string>
+    <string name="action_about">О программе</string>
+    <string name="about_title">Об OpenMW</string>
+    <string name="action_theme">Тема</string>
+    <string name="action_theme_system">Системная</string>
+    <string name="action_theme_light">Светлая</string>
+    <string name="action_theme_dark">Тёмная</string>
+    <string name="action_theme_oled">Чёрная/OLED</string>
+    <string name="activity_settings">Настройки игры</string>
+    <string name="game_mechanics_activity_settings">Игровой процесс</string>
+    <string name="visuals_activity_settings">Графика</string>
+    <string name="animations_activity_settings">Анимации</string>
+    <string name="interface_activity_settings">Интерфейс</string>
+    <string name="bug_fixes_activity_settings">Исправления ошибок</string>
+    <string name="miscellaneous_activity_settings">Разное</string>
+    <string name="engine_activity_settings">Движок</string>
+    <string name="activity_mods">Моды</string>
+    <string name="tab_plugins">Плагины</string>
+    <string name="tab_resources">Ресурсы</string>
+    <string name="tab_dirs">Каталоги</string>
+    <string name="tab_groundcover">Наземная растительность</string>
+    <string name="data_error_title">Ошибка поиска файлов игры</string>
+    <string name="data_error_message">Выберите каталог, содержащий одновременно файл «Morrowind.ini» и каталог «Data Files».</string>
+    <string name="permissions_error_title">Нет разрешений</string>
+    <string name="permissions_error_message">OpenMW требуется доступ к хранилищу, чтобы найти и использовать файлы Morrowind. Разрешите доступ в настройках приложения.</string>
+    <string name="ini_error_message">Не удалось преобразовать файл конфигурации. Убедитесь, что файл «Morrowind.ini» имеет корректную структуру.</string>
+    <string name="no_data_files_title">Файлы игры не найдены</string>
+    <string name="no_data_files_message">Скопируйте файлы Morrowind на устройство и укажите путь к ним в разделе «Файлы игры», прежде чем запускать игру.</string>
+    <string name="category_performance">Производительность</string>
+    <string name="no_content_files_title">Нет файлов содержимого!</string>
+    <string name="no_content_files_message">Не включено ни одного файла содержимого. Перед запуском игры необходимо активировать хотя бы один файл плагина в меню «Моды…».</string>
+    <string name="no_content_files_dismiss">Всё равно продолжить</string>
+    <string name="configure_mods">Настроить моды</string>
+    <string name="pref_mouse_mode">Режим мыши в меню</string>
+    <string name="pref_mouse_mode_default">hybrid</string>
+    <string name="bugsnag_yes">Да</string>
+    <string name="bugsnag_no">Нет</string>
+    <string name="bugsnag_policy">Политика конфиденциальности</string>
+    <string name="bugsnag_consent_title">Автоматически отправлять отчёты о сбоях?</string>
+    <string name="bugsnag_consent_message">Включить автоматическую отправку отчётов о сбоях?\nЕсли произойдёт сбой, некоторые данные об устройстве, конфигурации и установленных модах будут автоматически отправлены в Bugsnag. Подробнее см. в Политике конфиденциальности.\nЭту настройку можно изменить в меню в любое время.</string>
+    <string name="bugsnag_consent_restart_title">Перезапустите приложение</string>
+    <string name="bugsnag_consent_restart_message">Чтобы настройки вступили в силу, необходимо перезапустить приложение.</string>
+    <string name="action_bugsnag_consent">Отчёты о сбоях</string>
+    <string name="dialog_howto">Инструкция</string>
+    <string name="no_browser_title">Не удалось открыть URL</string>
+    <string name="no_browser_message">Похоже, на устройстве не установлен веб-браузер. Была предпринята попытка открыть следующий URL:\n\n%1$s</string>
+    <string name="pref_show_qp">Включить быстрые клавиши</string>
+    <string name="pref_show_fn">Включить клавиши FN</string>
+    <string name="pref_always_show_top_bar">Всегда показывать значки верхней панели</string>
+    <string name="theme">0</string>
+    <string name="shadows_activity_settings">Тени</string>
+    <string name="slider_auto">Авто</string>
+    <string name="controller_trigger_custom_values">Пользовательская (%1$d нажатие, %2$d отпускание)</string>
+    <string name="controller_trigger_custom">Пользовательская</string>
+    <string name="resolution_width_hint">Ширина</string>
+    <string name="resolution_height_hint">Высота</string>
+    <string name="resolution_native">Родное</string>
+    <string name="resolution_invalid">Введите корректные ширину и высоту.</string>
+    <string name="launch_preparing">Загрузка…</string>
+    <string name="launch_preparing_game">Подготовка OpenMW…</string>
+    <string name="launch_failed_title">Не удалось запустить OpenMW</string>
+    <string name="launch_failed_unknown">Неизвестная ошибка при подготовке OpenMW.</string>
+    <string name="user_configuration">Конфигурация пользователя</string>
+    <string name="action_theme_submenu">Тема ›</string>
+    <string name="theme_set_to">Установлена тема %1$s</string>
+    <string name="about_port_info">Этот порт подготовил Andreas \'Andiweli\' Stürmer\nНа основе порта CaveBros\nOpenMW разрабатывается командой OpenMW с 2008 года</string>
+    <string name="third_party_notices">Сведения о сторонних компонентах</string>
+    <string name="chooser_select">Выбрать</string>
+    <string name="chooser_create">Создать</string>
+    <string name="chooser_new_folder">Новая папка</string>
+    <string name="chooser_cancel">Отмена</string>
+    <string name="chooser_heading">Выбор хранилища</string>
+    <string name="chooser_internal_storage">Внутреннее хранилище</string>
+    <string name="chooser_free_space">Свободно %1$s</string>
+    <string name="chooser_folder_created">Папка создана</string>
+    <string name="chooser_folder_error">При создании папки произошла ошибка. Повторите попытку.</string>
+    <string name="chooser_folder_name">Имя папки</string>
+    <string name="chooser_empty_folder_name">Имя папки не может быть пустым</string>
+    <string-array name="pref_encoding_entries">
+        <item>Центральная и Восточная Европа (win1250)</item>
+        <item>Кириллица (win1251)</item>
+        <item>Латиница (win1252)</item>
+        <item>Arabic (win1256)</item>
+    </string-array>
+    <string-array name="gs_factor_strength_into_hand_to_hand_combat_entries">
+        <item>Выкл.</item>
+        <item>Влияет на оборотней</item>
+        <item>Не влияет на оборотней</item>
+    </string-array>
+    <string-array name="gs_show_owned_entries">
+        <item>Выкл.</item>
+        <item>Только подсказка</item>
+        <item>Только прицел</item>
+        <item>Подсказка и прицел</item>
+    </string-array>
+    <string-array name="pref_omw051_controller_trigger_sensitivity_entries">
+        <item>По умолчанию OpenMW (15/16 нажатие, 13/16 отпускание)</item>
+        <item>Сбалансированная (12/16 нажатие, 10/16 отпускание)</item>
+        <item>Чувствительная (8/16 нажатие, 6/16 отпускание)</item>
+    </string-array>
+    <string-array name="pref_textureShrinking_entries">
+        <item>Нет</item>
+        <item>Низкое</item>
+        <item>Среднее</item>
+        <item>Высокое</item>
+    </string-array>
+    <string-array name="pref_shadersDir_entries">
+        <item>Оригинальные</item>
+        <item>Изменённые</item>
+        <item>Zesterer</item>
+        <item>OMWFX</item>
+    </string-array>
+    <string-array name="pref_mouse_mode_entries">
+        <item>Гибридный</item>
+        <item>Относительное управление джойстиком</item>
+        <item>Абсолютное сенсорное управление</item>
+    </string-array>
+    <string-array name="gs_shadow_quality_entries">
+        <item>Низкое</item>
+        <item>Среднее</item>
+        <item>Высокое</item>
+        <item>Очень высокое</item>
+    </string-array>
+    <string-array name="gs_shadow_distance_entries">
+        <item>Малая</item>
+        <item>Средняя</item>
+        <item>Большая</item>
+    </string-array>
+    <string name="osk_shift">Shift</string>
+    <string name="osk_caps_lock">Caps Lock</string>
+    <string name="osk_language">Язык</string>
+    <string name="sdl_error_title">Ошибка SDL</string>
+    <string name="sdl_exit">Выйти</string>
+    <string name="sdl_start_error">При запуске приложения произошла ошибка. Повторите попытку и/или переустановите приложение.\n\nОшибка: %1$s</string>
+    <string name="navmesh_generating_cache">СОЗДАНИЕ КЭША NAVMESH</string>
+
+    <!-- Game folder validation -->
+    <string name="game_files_checking">Проверка файлов игры…</string>
+    <string name="game_files_selection_unchanged">Предыдущий выбор не изменён.</string>
+    <string name="game_files_storage_unavailable_title">Хранилище недоступно</string>
+    <string name="game_files_storage_unavailable_message">Хранилище с папкой игры сейчас недоступно:\n%1$s\n\nВставьте SD-карту или дождитесь, пока Android её подключит. Сохранённый выбор не удаляется.</string>
+    <string name="game_files_folder_not_found_title">Папка не найдена</string>
+    <string name="game_files_folder_not_found_message">Папка игры не найдена:\n%1$s\n\nВозможно, она была перемещена или переименована. Если она находится на SD-карте, проверьте, вставлена ли карта.</string>
+    <string name="game_files_access_denied_title">Нет доступа на чтение</string>
+    <string name="game_files_access_denied_message">OpenMW не может прочитать этот файл или папку:\n%1$s\n\nПроверьте в настройках приложения, предоставлен ли доступ к хранилищу. Если доступ предоставлен, это устройство не разрешает прямой доступ к этому расположению; в этом случае скопируйте файлы игры во внутреннюю память.</string>
+    <string name="game_files_missing_message">В выбранной папке отсутствует:\n%1$s\n\nВыберите папку, содержащую файл «Morrowind.ini» и каталог «Data Files».</string>
+    <string name="game_files_read_failed_title">Ошибка чтения</string>
+    <string name="game_files_read_failed_message">Не удалось прочитать файл:\n%1$s\n(%2$s)</string>
+
+    <!-- Перенос старого места хранения -->
+    <string name="legacy_storage_migration_progress">Перенос сохранений и настроек в новое место хранения…</string>
+    <string name="legacy_storage_migration_done_title">Сохранения перенесены</string>
+    <string name="legacy_storage_migration_conflicts_message">Некоторые файлы были и в старом, и в новом месте. Файлы в новом месте сохранены; отличающиеся старые версии сохранены здесь:\n%1$s</string>
+    <string name="legacy_storage_migration_failed_title">Сохранения не перенесены</string>
+    <string name="legacy_storage_migration_no_space_message">Не удалось перенести сохранения и настройки из\n%1$s\nтак как требуется %2$s свободного места. Старая папка не изменена. Освободите место и перезапустите OpenMW, чтобы повторить попытку.</string>
+    <string name="legacy_storage_migration_failed_message">Не удалось перенести сохранения и настройки из\n%1$s\n(%2$s). Старая папка не изменена. Перезапустите OpenMW, чтобы повторить попытку.</string>
+
+    <!-- Saves folder and swipe to look -->
+    <string name="user_data_dir_title">Папка сохранений</string>
+    <string name="user_data_dir_default_summary">По умолчанию (память приложения)</string>
+    <string name="user_data_dir_hint">Выберите папку, например для Syncthing.</string>
+    <string name="user_data_dir_choose">Выбрать папку…</string>
+    <string name="user_data_dir_use_default">Использовать папку приложения</string>
+    <string name="user_data_dir_copying">Копирование сохранений…</string>
+    <string name="user_data_dir_changed_message">Сохранения и скриншоты теперь хранятся здесь:\n%1$s\n\nСкопировано файлов из прежней папки: %2$d. Существующие сохранения не заменены, прежняя папка не изменена.\n\nСовет: исключите navmesh.db из синхронизации, это большой файл кэша.</string>
+    <string name="user_data_dir_error_title">Папка сохранений не изменена</string>
+    <string name="user_data_dir_error_message">OpenMW не может записывать в эту папку:\n%1$s\n(%2$s)\n\nПо-прежнему используется прежняя папка сохранений.</string>
+    <string name="user_data_dir_unavailable">Папка сохранений недоступна или защищена от записи:\n%1$s\n\nВставьте носитель, проверьте разрешение на доступ к памяти или выберите другую папку в лаунчере.</string>
+    <string name="pref_swipe_to_look_title">Обзор свайпом</string>
+    <string name="pref_swipe_to_look_summary">Проводите по свободной части экрана, чтобы осматриваться.</string>
+    <string name="pref_cheats_enabled_title">Включить читы</string>
+    <string name="pref_cheats_enabled_summary">Страница «Читы» в игре (Параметры &gt; Скрипты) для получения золота.</string>
+
+    <!-- Launcher home screen -->
+    <string name="launcher_play">Играть</string>
+    <string name="launcher_up_to_date">Актуально</string>
+    <string name="launcher_update">Обновить</string>
+    <string name="launcher_section_game_data">Данные игры</string>
+    <string name="launcher_section_settings">Настройки</string>
+    <string name="launcher_game_data_title">Morrowind</string>
+    <string name="launcher_status_found">Найдено</string>
+    <string name="launcher_status_missing">Не найдено</string>
+    <string name="launcher_status_not_chosen">Не выбрано</string>
+    <string name="launcher_game_data_not_chosen">Выберите папку, в которой есть Data Files и Morrowind.ini.</string>
+    <string name="launcher_choose_folder">Выбрать папку</string>
+    <string name="launcher_language">Язык</string>
+    <string name="launcher_tile_game_settings_summary">Геймплей, движок, дополнительно</string>
+    <string name="launcher_tile_graphics">Графика и производительность</string>
+    <string name="launcher_tile_graphics_summary">Разрешение, шейдеры, частота кадров</string>
+    <string name="launcher_tile_controls">Управление</string>
+    <string name="launcher_tile_controls_summary">Контроллер, сенсор, портативный режим</string>
+    <string name="launcher_tile_audio">Звук</string>
+    <string name="launcher_tile_audio_summary">Эффект Доплера, позиция слушателя</string>
+    <string name="launcher_tile_mods">Моды</string>
+    <string name="launcher_tile_mods_summary">Плагины, порядок загрузки, растительность</string>
+    <string name="launcher_tile_help">Справка</string>
+    <string name="launcher_tile_help_summary">О программе, сброс, GitHub</string>
+    <string name="launcher_hint_navigate">Крестовина: навигация · A: выбор</string>
+    <string name="launcher_hint_play">START: играть</string>
+    <string name="launcher_help_github">Проект на GitHub</string>
+    <string name="launcher_back">‹ Назад</string>
+    <string name="launcher_hint_back_play">B: назад · START: играть</string>
+    <string name="launcher_on">ВКЛ</string>
+    <string name="launcher_off">ВЫКЛ</string>
+    <string name="launcher_section_onscreen">Расположение экранных кнопок</string>
+    <string name="launcher_section_areas">Разделы</string>
+    <string name="launcher_gs_game_mechanics_summary">Бой, спутники, сохранения</string>
+    <string name="launcher_gs_visuals_summary">Дальний ландшафт, шейдеры, туман</string>
+    <string name="launcher_gs_shadows_summary">Тени, качество, дальность</string>
+    <string name="launcher_gs_animations_summary">Движение и не только</string>
+    <string name="launcher_gs_interface_summary">Шрифты, подсказки, карта</string>
+    <string name="launcher_gs_engine_summary">Растительность, навмеш, потоки</string>
+    <string name="launcher_gs_advanced_summary">Папка сохранений, читы, запуск</string>
+</resources>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OpenMW</string>
+    <string name="general_settings">Konfiguracja</string>
+    <string name="start_game_label">Uruchom grę</string>
+    <string name="closeDrawer">Nawigacja</string>
+    <string name="openDrawer">Nawigacja zamknięta</string>
+    <string name="game_files">Pliki gry</string>
+    <string name="pref_graphicsLibrary">Biblioteka API grafiki</string>
+    <string name="pref_graphicsLibrary_default">gles2</string>
+    <string name="pref_advanced">Zaawansowane</string>
+    <string name="pref_graphics">Grafika</string>
+    <string name="pref_commandLine">Niestandardowe argumenty wiersza poleceń</string>
+    <string name="pref_envLine">Niestandardowe zmienne środowiskowe</string>
+    <string name="pref_nohighp">Średnia precyzja shaderów</string>
+    <string name="pref_nohighp_summary">Używa średniej zamiast wysokiej precyzji; dostępne tylko z ustawieniem shaderów „Modified”.</string>
+    <string name="pref_ui">Interfejs użytkownika</string>
+    <string name="pref_textureShrinking">Zmniejszanie tekstur</string>
+    <string name="pref_textureShrinking_default">none</string>
+    <string name="pref_shadersDir">Ustawienia shaderów</string>
+    <string name="pref_shadersDir_default">none</string>
+    <string name="pref_gamma">Gamma</string>
+    <string name="pref_uiScaling">Skalowanie interfejsu</string>
+    <string name="pref_font_size">Rozmiar czcionki</string>
+    <string name="pref_truetype_fonts_title">Ostre czcionki</string>
+    <string name="pref_truetype_fonts_summary">Ostre czcionki w każdym rozmiarze. Wymagane powyżej rozmiaru 18.</string>
+    <string name="uiScaling_auto">Auto (%1$.2f)</string>
+    <string name="pref_screen_keeper">Nie wyłączaj ekranu</string>
+    <string name="pref_touchpadSensitivity">Czułość wirtualnego touchpada</string>
+    <string name="action_reset_config">Zresetuj statyczne pliki konfiguracji</string>
+    <string name="action_reset_user_config">Zresetuj pliki konfiguracji użytkownika</string>
+    <string name="action_reset_user_resources">Zresetuj zasoby użytkownika</string>
+    <string name="action_reset_screen_controls">Zresetuj sterowanie ekranowe</string>
+    <string name="action_show_screen_controls">Sterowanie ekranowe</string>
+    <string name="pref_hide_controls">Ukryj przyciski ekranowe</string>
+    <string name="pref_handheld_mode_title">Tryb przenośny</string>
+    <string name="pref_handheld_mode_summary">Dla wbudowanych kontrolek: bez przycisków ekranowych, L1 menu kołowe, R1 dziennik, Select odpoczynek.</string>
+    <string name="config_was_reset">Statyczna konfiguracja została przywrócona do wartości domyślnych</string>
+    <string name="user_config_was_reset">Konfiguracja użytkownika została przywrócona do wartości domyślnych</string>
+    <string name="user_resources_was_reset">Zasoby użytkownika zostały przywrócone do wartości domyślnych</string>
+    <string name="pref_lang">Ustawienia języka</string>
+    <string name="pref_encoding">Język gry</string>
+    <string name="pref_encoding_default">win1252</string>
+    <string name="btn_opacityPlus">Alfa+</string>
+    <string name="btn_opacityMinus">Alfa-</string>
+    <string name="btn_sizePlus">Rozmiar+</string>
+    <string name="btn_sizeMinus">Rozmiar-</string>
+    <string name="btn_resetControlsLayout">Przywróć domyślne</string>
+    <string name="pref_physicsFPS2">FPS fizyki</string>
+    <string name="pref_framerate_limit">Limit liczby klatek</string>
+    <string name="pref_framerate_limit_default">60</string>
+    <string name="pref_physicsFPS2_default">30</string>
+    <string name="btn_back">Wstecz</string>
+    <string name="pref_customResolution">Niestandardowa rozdzielczość</string>
+    <string name="pref_display_cutout_area">Wyświetlaj w obszarze wycięcia</string>
+    <string name="mods">Modyfikacje gry</string>
+    <string name="action_about">Informacje</string>
+    <string name="about_title">O OpenMW</string>
+    <string name="action_theme">Motyw</string>
+    <string name="action_theme_system">Systemowy</string>
+    <string name="action_theme_light">Jasny</string>
+    <string name="action_theme_dark">Ciemny</string>
+    <string name="action_theme_oled">Czarny/OLED</string>
+    <string name="activity_settings">Ustawienia gry</string>
+    <string name="game_mechanics_activity_settings">Rozgrywka</string>
+    <string name="visuals_activity_settings">Grafika</string>
+    <string name="animations_activity_settings">Animacje</string>
+    <string name="interface_activity_settings">Interfejs</string>
+    <string name="bug_fixes_activity_settings">Poprawki błędów</string>
+    <string name="miscellaneous_activity_settings">Różne</string>
+    <string name="engine_activity_settings">Silnik</string>
+    <string name="activity_mods">Mody</string>
+    <string name="tab_plugins">Pluginy</string>
+    <string name="tab_resources">Zasoby</string>
+    <string name="tab_dirs">Katalogi</string>
+    <string name="tab_groundcover">Roślinność</string>
+    <string name="data_error_title">Błąd podczas odnajdywania plików gry</string>
+    <string name="data_error_message">Wybierz katalog zawierający zarówno plik „Morrowind.ini”, jak i katalog „Data Files”.</string>
+    <string name="permissions_error_title">Brak uprawnień</string>
+    <string name="permissions_error_message">OpenMW potrzebuje uprawnień do pamięci, aby odnaleźć i odczytać pliki gry Morrowind. Przyznaj te uprawnienia w ustawieniach aplikacji.</string>
+    <string name="ini_error_message">Nie udało się przekształcić pliku konfiguracji. Upewnij się, że plik „Morrowind.ini” ma poprawną strukturę.</string>
+    <string name="no_data_files_title">Nie znaleziono plików gry</string>
+    <string name="no_data_files_message">Przed uruchomieniem gry musisz skopiować pliki Morrowind na urządzenie i wskazać ich ścieżkę w sekcji „Pliki gry”.</string>
+    <string name="category_performance">Wydajność</string>
+    <string name="no_content_files_title">Brak plików zawartości!</string>
+    <string name="no_content_files_message">Nie włączono żadnych plików zawartości. Przed uruchomieniem gry musisz aktywować co najmniej jeden plik pluginu w menu „Mody…”.</string>
+    <string name="no_content_files_dismiss">Mimo to kontynuuj</string>
+    <string name="configure_mods">Konfiguruj mody</string>
+    <string name="pref_mouse_mode">Tryb myszy w menu</string>
+    <string name="pref_mouse_mode_default">hybrid</string>
+    <string name="bugsnag_yes">Tak</string>
+    <string name="bugsnag_no">Nie</string>
+    <string name="bugsnag_policy">Polityka prywatności</string>
+    <string name="bugsnag_consent_title">Automatycznie zgłaszać awarie?</string>
+    <string name="bugsnag_consent_message">Czy chcesz włączyć automatyczne zgłaszanie awarii?\nW razie awarii niektóre dane o urządzeniu, konfiguracji i zainstalowanych modach zostaną automatycznie przesłane do Bugsnag. Więcej informacji znajdziesz w Polityce prywatności.\nTo ustawienie można w każdej chwili zmienić w menu.</string>
+    <string name="bugsnag_consent_restart_title">Uruchom ponownie aplikację</string>
+    <string name="bugsnag_consent_restart_message">Aby te ustawienia zaczęły obowiązywać, musisz ponownie uruchomić aplikację.</string>
+    <string name="action_bugsnag_consent">Raportowanie awarii</string>
+    <string name="dialog_howto">Instrukcja</string>
+    <string name="no_browser_title">Nie można otworzyć adresu URL</string>
+    <string name="no_browser_message">Wygląda na to, że nie masz zainstalowanej przeglądarki internetowej. Próbowano otworzyć następujący adres URL:\n\n%1$s</string>
+    <string name="pref_show_qp">Włącz szybkie klawisze</string>
+    <string name="pref_show_fn">Włącz klawisze FN</string>
+    <string name="pref_always_show_top_bar">Zawsze pokazuj ikony górnego paska</string>
+    <string name="theme">0</string>
+    <string name="shadows_activity_settings">Cienie</string>
+    <string name="slider_auto">Auto</string>
+    <string name="controller_trigger_custom_values">Niestandardowa (%1$d wciśnięcie, %2$d zwolnienie)</string>
+    <string name="controller_trigger_custom">Niestandardowa</string>
+    <string name="resolution_width_hint">Szerokość</string>
+    <string name="resolution_height_hint">Wysokość</string>
+    <string name="resolution_native">Natywna</string>
+    <string name="resolution_invalid">Podaj prawidłową szerokość i wysokość.</string>
+    <string name="launch_preparing">Wczytywanie…</string>
+    <string name="launch_preparing_game">Przygotowywanie OpenMW…</string>
+    <string name="launch_failed_title">Nie udało się uruchomić OpenMW</string>
+    <string name="launch_failed_unknown">Nieznany błąd podczas przygotowywania OpenMW.</string>
+    <string name="user_configuration">Konfiguracja użytkownika</string>
+    <string name="action_theme_submenu">Motyw ›</string>
+    <string name="theme_set_to">Ustawiono motyw %1$s</string>
+    <string name="about_port_info">Ten port przygotował Andreas \'Andiweli\' Stürmer\nNa podstawie portu CaveBros\nOpenMW rozwijane przez zespół OpenMW od 2008 roku</string>
+    <string name="third_party_notices">Informacje o komponentach firm trzecich</string>
+    <string name="chooser_select">Wybierz</string>
+    <string name="chooser_create">Utwórz</string>
+    <string name="chooser_new_folder">Nowy folder</string>
+    <string name="chooser_cancel">Anuluj</string>
+    <string name="chooser_heading">Wybierz pamięć</string>
+    <string name="chooser_internal_storage">Pamięć wewnętrzna</string>
+    <string name="chooser_free_space">%1$s wolne</string>
+    <string name="chooser_folder_created">Folder utworzony</string>
+    <string name="chooser_folder_error">Wystąpił błąd podczas tworzenia folderu. Spróbuj ponownie.</string>
+    <string name="chooser_folder_name">Nazwa folderu</string>
+    <string name="chooser_empty_folder_name">Nazwa folderu nie może być pusta</string>
+    <string-array name="pref_encoding_entries">
+        <item>Europa Środkowa i Wschodnia (win1250)</item>
+        <item>Cyrylica (win1251)</item>
+        <item>Łaciński (win1252)</item>
+        <item>Arabic (win1256)</item>
+    </string-array>
+    <string-array name="gs_factor_strength_into_hand_to_hand_combat_entries">
+        <item>Wyłączone</item>
+        <item>Dotyczy wilkołaków</item>
+        <item>Nie dotyczy wilkołaków</item>
+    </string-array>
+    <string-array name="gs_show_owned_entries">
+        <item>Wyłączone</item>
+        <item>Tylko podpowiedź</item>
+        <item>Tylko celownik</item>
+        <item>Podpowiedź i celownik</item>
+    </string-array>
+    <string-array name="pref_omw051_controller_trigger_sensitivity_entries">
+        <item>Domyślne OpenMW (15/16 wciśnięcie, 13/16 zwolnienie)</item>
+        <item>Zrównoważone (12/16 wciśnięcie, 10/16 zwolnienie)</item>
+        <item>Czułe (8/16 wciśnięcie, 6/16 zwolnienie)</item>
+    </string-array>
+    <string-array name="pref_textureShrinking_entries">
+        <item>Brak</item>
+        <item>Niskie</item>
+        <item>Średnie</item>
+        <item>Wysokie</item>
+    </string-array>
+    <string-array name="pref_shadersDir_entries">
+        <item>Oryginalne</item>
+        <item>Zmodyfikowane</item>
+        <item>Zesterer</item>
+        <item>OMWFX</item>
+    </string-array>
+    <string-array name="pref_mouse_mode_entries">
+        <item>Hybrydowy</item>
+        <item>Względne sterowanie joystickiem</item>
+        <item>Bezwzględne sterowanie dotykowe</item>
+    </string-array>
+    <string-array name="gs_shadow_quality_entries">
+        <item>Niska</item>
+        <item>Średnia</item>
+        <item>Wysoka</item>
+        <item>Bardzo wysoka</item>
+    </string-array>
+    <string-array name="gs_shadow_distance_entries">
+        <item>Niski</item>
+        <item>Średni</item>
+        <item>Wysoki</item>
+    </string-array>
+    <string name="osk_shift">Shift</string>
+    <string name="osk_caps_lock">Caps Lock</string>
+    <string name="osk_language">Język</string>
+    <string name="sdl_error_title">Błąd SDL</string>
+    <string name="sdl_exit">Zakończ</string>
+    <string name="sdl_start_error">Wystąpił błąd podczas uruchamiania aplikacji. Spróbuj ponownie i/lub zainstaluj aplikację ponownie.\n\nBłąd: %1$s</string>
+    <string name="navmesh_generating_cache">TWORZENIE PAMIĘCI PODRĘCZNEJ NAVMESH</string>
+
+    <!-- Game folder validation -->
+    <string name="game_files_checking">Sprawdzanie plików gry…</string>
+    <string name="game_files_selection_unchanged">Poprzedni wybór nie został zmieniony.</string>
+    <string name="game_files_storage_unavailable_title">Lokalizacja pamięci niedostępna</string>
+    <string name="game_files_storage_unavailable_message">Pamięć zawierająca folder gry jest obecnie niedostępna:\n%1$s\n\nWłóż kartę SD lub poczekaj, aż Android ją zamontuje. Zapisany wybór zostaje zachowany.</string>
+    <string name="game_files_folder_not_found_title">Nie znaleziono folderu</string>
+    <string name="game_files_folder_not_found_message">Nie znaleziono folderu gry:\n%1$s\n\nCzy został przeniesiony lub zmienił nazwę? Jeśli znajduje się na karcie SD, sprawdź, czy karta jest włożona.</string>
+    <string name="game_files_access_denied_title">Brak dostępu do odczytu</string>
+    <string name="game_files_access_denied_message">OpenMW nie ma uprawnień do odczytu tego pliku lub folderu:\n%1$s\n\nSprawdź w ustawieniach aplikacji, czy przyznano uprawnienie do pamięci. Jeśli tak, to urządzenie nie pozwala na bezpośredni dostęp do tej lokalizacji; skopiuj wtedy pliki gry do pamięci wewnętrznej.</string>
+    <string name="game_files_missing_message">W wybranym folderze brakuje:\n%1$s\n\nWybierz folder zawierający plik „Morrowind.ini” i katalog „Data Files”.</string>
+    <string name="game_files_read_failed_title">Błąd odczytu</string>
+    <string name="game_files_read_failed_message">Nie udało się odczytać pliku:\n%1$s\n(%2$s)</string>
+
+    <!-- Przenoszenie starej lokalizacji -->
+    <string name="legacy_storage_migration_progress">Przenoszenie zapisów gry i ustawień do nowej lokalizacji…</string>
+    <string name="legacy_storage_migration_done_title">Zapisy gry przeniesione</string>
+    <string name="legacy_storage_migration_conflicts_message">Niektóre pliki istniały zarówno w starej, jak i w nowej lokalizacji. Zachowano pliki z nowej lokalizacji; różniące się stare wersje zapisano tutaj:\n%1$s</string>
+    <string name="legacy_storage_migration_failed_title">Zapisy gry nie zostały przeniesione</string>
+    <string name="legacy_storage_migration_no_space_message">Nie można było przenieść zapisów gry i ustawień z\n%1$s\nponieważ potrzeba %2$s wolnego miejsca. Stary folder nie został zmieniony. Zwolnij miejsce i uruchom ponownie OpenMW, aby spróbować jeszcze raz.</string>
+    <string name="legacy_storage_migration_failed_message">Nie można było przenieść zapisów gry i ustawień z\n%1$s\n(%2$s). Stary folder nie został zmieniony. Uruchom ponownie OpenMW, aby spróbować jeszcze raz.</string>
+
+    <!-- Saves folder and swipe to look -->
+    <string name="user_data_dir_title">Folder zapisów gry</string>
+    <string name="user_data_dir_default_summary">Domyślny (pamięć aplikacji)</string>
+    <string name="user_data_dir_hint">Wybierz folder, np. dla Syncthing.</string>
+    <string name="user_data_dir_choose">Wybierz folder…</string>
+    <string name="user_data_dir_use_default">Użyj domyślnego folderu aplikacji</string>
+    <string name="user_data_dir_copying">Kopiowanie zapisów…</string>
+    <string name="user_data_dir_changed_message">Zapisy gry i zrzuty ekranu są teraz przechowywane w:\n%1$s\n\nPliki skopiowane z poprzedniego folderu: %2$d. Istniejące zapisy nie zostały zastąpione, a poprzedni folder pozostał bez zmian.\n\nWskazówka: wyklucz navmesh.db z synchronizacji, to duży plik pamięci podręcznej.</string>
+    <string name="user_data_dir_error_title">Folder zapisów nie został zmieniony</string>
+    <string name="user_data_dir_error_message">OpenMW nie może zapisywać w tym folderze:\n%1$s\n(%2$s)\n\nNadal używany jest poprzedni folder zapisów.</string>
+    <string name="user_data_dir_unavailable">Folder zapisów jest niedostępny lub nie można w nim zapisywać:\n%1$s\n\nWłóż nośnik, sprawdź uprawnienie do pamięci lub wybierz inny folder w launcherze.</string>
+    <string name="pref_swipe_to_look_title">Przesuń, aby się rozglądać</string>
+    <string name="pref_swipe_to_look_summary">Przesuwaj palcem po wolnej części ekranu, aby się rozglądać.</string>
+    <string name="pref_cheats_enabled_title">Włącz kody</string>
+    <string name="pref_cheats_enabled_summary">Strona w grze Opcje &gt; Skrypty &gt; Kody, by dostać złoto.</string>
+
+    <!-- Launcher home screen -->
+    <string name="launcher_play">Graj</string>
+    <string name="launcher_up_to_date">Aktualna</string>
+    <string name="launcher_update">Aktualizacja</string>
+    <string name="launcher_section_game_data">Dane gry</string>
+    <string name="launcher_section_settings">Ustawienia</string>
+    <string name="launcher_game_data_title">Morrowind</string>
+    <string name="launcher_status_found">Znaleziono</string>
+    <string name="launcher_status_missing">Nie znaleziono</string>
+    <string name="launcher_status_not_chosen">Nie wybrano</string>
+    <string name="launcher_game_data_not_chosen">Wybierz folder zawierający Data Files i Morrowind.ini.</string>
+    <string name="launcher_choose_folder">Wybierz folder</string>
+    <string name="launcher_language">Język</string>
+    <string name="launcher_tile_game_settings_summary">Rozgrywka, silnik, zaawansowane</string>
+    <string name="launcher_tile_graphics">Grafika i wydajność</string>
+    <string name="launcher_tile_graphics_summary">Rozdzielczość, shadery, liczba klatek</string>
+    <string name="launcher_tile_controls">Sterowanie</string>
+    <string name="launcher_tile_controls_summary">Kontroler, dotyk, tryb przenośny</string>
+    <string name="launcher_tile_audio">Dźwięk</string>
+    <string name="launcher_tile_audio_summary">Efekt Dopplera, pozycja słuchacza</string>
+    <string name="launcher_tile_mods">Mody</string>
+    <string name="launcher_tile_mods_summary">Wtyczki, kolejność, roślinność</string>
+    <string name="launcher_tile_help">Pomoc i informacje</string>
+    <string name="launcher_tile_help_summary">O aplikacji, reset, GitHub</string>
+    <string name="launcher_hint_navigate">Krzyżak: nawigacja · A: wybór</string>
+    <string name="launcher_hint_play">START: graj</string>
+    <string name="launcher_help_github">Projekt na GitHubie</string>
+    <string name="launcher_back">‹ Wstecz</string>
+    <string name="launcher_hint_back_play">B: wstecz · START: graj</string>
+    <string name="launcher_on">WŁ.</string>
+    <string name="launcher_off">WYŁ.</string>
+    <string name="launcher_section_onscreen">Układ przycisków ekranowych</string>
+    <string name="launcher_section_areas">Obszary</string>
+    <string name="launcher_gs_game_mechanics_summary">Walka, towarzysze, zapisy</string>
+    <string name="launcher_gs_visuals_summary">Odległy teren, shadery, mgła</string>
+    <string name="launcher_gs_shadows_summary">Rzucanie cieni, jakość, odległość</string>
+    <string name="launcher_gs_animations_summary">Ruch i więcej</string>
+    <string name="launcher_gs_interface_summary">Czcionki, podpowiedzi, mapa</string>
+    <string name="launcher_gs_engine_summary">Roślinność, navmesh, wątki</string>
+    <string name="launcher_gs_advanced_summary">Folder zapisów, kody, opcje startu</string>
+</resources>

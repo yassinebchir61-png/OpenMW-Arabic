@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A231B</color>
+    <color name="colorPrimaryDark">#120F0B</color>
+    <color name="colorAccent">#C9A465</color>
+
+    <color name="modItemBackgroundColor">#2A231B</color>
+    <color name="modItemSelectedColor">#4A3A22</color>
+    <color name="modItemTextColor">#EFE6D4</color>
+
+    <color name="statusBarColor">#120F0B</color>
+
+    <!-- Launcher palette (see ui.launcher.LauncherStyle) -->
+    <color name="launcherPanel">#1E1914</color>
+    <color name="launcherSurface">#2A231B</color>
+    <color name="launcherBorder">#4A3E30</color>
+    <color name="launcherInk">#EFE6D4</color>
+    <color name="launcherMuted">#B0A28A</color>
+
+    <!-- Storage Chooser -->
+    <array name="default_light">
+        <!-- Overview -->
+        <item>#120F0B</item> <!--  Top Header bg -->
+        <item>#EFE6D4</item> <!-- header text   -->
+        <item>#1E1914</item> <!-- list bg  -->
+        <item>#EFE6D4</item> <!--  storage list name text  -->
+        <item>#C9A465</item> <!-- free space text  -->
+        <item>#B0A28A</item> <!-- memory bar -->
+
+        <!-- secondary dialog colors -->
+        <item>#C9A465</item> <!-- folder icon color -->
+        <item>#2A231B</item> <!-- list bg -->
+        <item>#EFE6D4</item> <!-- list text -->
+        <item>#EFE6D4</item> <!-- address bar text color -->
+        <item>@color/chevronBgColor</item> <!-- new folder hint tint -->
+        <item>#C9A465</item> <!-- select button color -->
+        <item>#4A3A22</item> <!-- new folder layour bg -->
+        <item>#4A3A22</item> <!-- new multi fab -->
+        <item>#2A231B</item> <!-- new multi fab -->
+    </array>
+</resources>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OpenMW</string>
+    <string name="general_settings">Inställningar</string>
+    <string name="start_game_label">Starta spelet</string>
+    <string name="closeDrawer">Navigering</string>
+    <string name="openDrawer">Navigering stängd</string>
+    <string name="game_files">Spelfiler</string>
+    <string name="pref_graphicsLibrary">Grafik-API-bibliotek</string>
+    <string name="pref_graphicsLibrary_default">gles2</string>
+    <string name="pref_advanced">Avancerat</string>
+    <string name="pref_graphics">Grafik</string>
+    <string name="pref_commandLine">Egna kommandoradsargument</string>
+    <string name="pref_envLine">Egna miljövariabler</string>
+    <string name="pref_nohighp">Medelhög shaderprecision</string>
+    <string name="pref_nohighp_summary">Använder medelhög i stället för hög precision; endast tillgängligt med shaderförinställningen ”Modified”.</string>
+    <string name="pref_ui">Användargränssnitt</string>
+    <string name="pref_textureShrinking">Texturminskning</string>
+    <string name="pref_textureShrinking_default">none</string>
+    <string name="pref_shadersDir">Shaderförinställningar</string>
+    <string name="pref_shadersDir_default">none</string>
+    <string name="pref_gamma">Gamma</string>
+    <string name="pref_uiScaling">Skalningsfaktor för gränssnitt</string>
+    <string name="pref_font_size">Teckenstorlek</string>
+    <string name="pref_truetype_fonts_title">Skarpa typsnitt</string>
+    <string name="pref_truetype_fonts_summary">Skarpa typsnitt i alla storlekar. Behövs över storlek 18.</string>
+    <string name="uiScaling_auto">Auto (%1$.2f)</string>
+    <string name="pref_screen_keeper">Håll skärmen alltid på</string>
+    <string name="pref_touchpadSensitivity">Känslighet för virtuell pekplatta</string>
+    <string name="action_reset_config">Återställ statiska konfigurationsfiler</string>
+    <string name="action_reset_user_config">Återställ användarens konfigurationsfiler</string>
+    <string name="action_reset_user_resources">Återställ användarresurser</string>
+    <string name="action_reset_screen_controls">Återställ skärmkontroller</string>
+    <string name="action_show_screen_controls">Skärmkontroller</string>
+    <string name="pref_hide_controls">Dölj skärmknappar</string>
+    <string name="pref_handheld_mode_title">Handhållet läge</string>
+    <string name="pref_handheld_mode_summary">För inbyggda kontroller: inga skärmknappar, L1 radialmeny, R1 dagbok, Select vilar.</string>
+    <string name="config_was_reset">Den statiska konfigurationen återställdes till standardvärden</string>
+    <string name="user_config_was_reset">Användarkonfigurationen återställdes till standardvärden</string>
+    <string name="user_resources_was_reset">Användarresurserna återställdes till standardvärden</string>
+    <string name="pref_lang">Språkinställningar</string>
+    <string name="pref_encoding">Spelspråk</string>
+    <string name="pref_encoding_default">win1252</string>
+    <string name="btn_opacityPlus">Alfa+</string>
+    <string name="btn_opacityMinus">Alfa-</string>
+    <string name="btn_sizePlus">Storlek+</string>
+    <string name="btn_sizeMinus">Storlek-</string>
+    <string name="btn_resetControlsLayout">Återställ standard</string>
+    <string name="pref_physicsFPS2">Fysik-FPS</string>
+    <string name="pref_framerate_limit">Bildfrekvensgräns</string>
+    <string name="pref_framerate_limit_default">60</string>
+    <string name="pref_physicsFPS2_default">30</string>
+    <string name="btn_back">Tillbaka</string>
+    <string name="pref_customResolution">Egen upplösning</string>
+    <string name="pref_display_cutout_area">Visa i skärmens urklippsområde</string>
+    <string name="mods">Spelmodifieringar</string>
+    <string name="action_about">Om</string>
+    <string name="about_title">Om OpenMW</string>
+    <string name="action_theme">Tema</string>
+    <string name="action_theme_system">System</string>
+    <string name="action_theme_light">Ljust</string>
+    <string name="action_theme_dark">Mörkt</string>
+    <string name="action_theme_oled">Svart/OLED</string>
+    <string name="activity_settings">Spelinställningar</string>
+    <string name="game_mechanics_activity_settings">Spelmekanik</string>
+    <string name="visuals_activity_settings">Grafik</string>
+    <string name="animations_activity_settings">Animationer</string>
+    <string name="interface_activity_settings">Gränssnitt</string>
+    <string name="bug_fixes_activity_settings">Felkorrigeringar</string>
+    <string name="miscellaneous_activity_settings">Diverse</string>
+    <string name="engine_activity_settings">Motor</string>
+    <string name="activity_mods">Moddar</string>
+    <string name="tab_plugins">Insticksfiler</string>
+    <string name="tab_resources">Resurser</string>
+    <string name="tab_dirs">Kataloger</string>
+    <string name="tab_groundcover">Marktäckning</string>
+    <string name="data_error_title">Fel vid sökning efter spelfiler</string>
+    <string name="data_error_message">Välj en katalog som innehåller både filen ”Morrowind.ini” och katalogen ”Data Files”.</string>
+    <string name="permissions_error_title">Inga behörigheter</string>
+    <string name="permissions_error_message">OpenMW behöver lagringsbehörighet för att hitta och komma åt Morrowinds spelfiler. Ge behörigheten i appens inställningar.</string>
+    <string name="ini_error_message">Konfigurationsfilen kunde inte omvandlas. Kontrollera att ”Morrowind.ini” är korrekt formaterad.</string>
+    <string name="no_data_files_title">Spelfiler hittades inte</string>
+    <string name="no_data_files_message">Du måste kopiera Morrowinds spelfiler till enheten och välja sökvägen under ”Spelfiler” innan spelet kan startas.</string>
+    <string name="category_performance">Prestanda</string>
+    <string name="no_content_files_title">Inga innehållsfiler!</string>
+    <string name="no_content_files_message">Inga innehållsfiler är aktiverade. Innan spelet kan starta måste du aktivera minst en insticksfil via menyn ”Moddar…”.</string>
+    <string name="no_content_files_dismiss">Fortsätt ändå</string>
+    <string name="configure_mods">Konfigurera moddar</string>
+    <string name="pref_mouse_mode">Musläge i menyer</string>
+    <string name="pref_mouse_mode_default">hybrid</string>
+    <string name="bugsnag_yes">Ja</string>
+    <string name="bugsnag_no">Nej</string>
+    <string name="bugsnag_policy">Integritetspolicy</string>
+    <string name="bugsnag_consent_title">Rapportera krascher automatiskt?</string>
+    <string name="bugsnag_consent_message">Vill du aktivera automatisk kraschrapportering?\nOm en krasch inträffar skickas viss information om enheten, konfigurationen och installerade moddar automatiskt till Bugsnag. Mer information finns i integritetspolicyn.\nInställningen kan ändras när som helst från menyn.</string>
+    <string name="bugsnag_consent_restart_title">Starta om appen</string>
+    <string name="bugsnag_consent_restart_message">Du måste starta om appen för att inställningarna ska börja gälla.</string>
+    <string name="action_bugsnag_consent">Kraschrapportering</string>
+    <string name="dialog_howto">Guide</string>
+    <string name="no_browser_title">Kunde inte öppna en URL</string>
+    <string name="no_browser_message">Det verkar inte finnas någon webbläsare installerad. Följande URL försökte öppnas:\n\n%1$s</string>
+    <string name="pref_show_qp">Aktivera snabbknappar</string>
+    <string name="pref_show_fn">Aktivera FN-tangenter</string>
+    <string name="pref_always_show_top_bar">Visa alltid ikoner i översta fältet</string>
+    <string name="theme">0</string>
+    <string name="shadows_activity_settings">Skuggor</string>
+    <string name="slider_auto">Auto</string>
+    <string name="controller_trigger_custom_values">Egen (%1$d tryck, %2$d släpp)</string>
+    <string name="controller_trigger_custom">Egen</string>
+    <string name="resolution_width_hint">Bredd</string>
+    <string name="resolution_height_hint">Höjd</string>
+    <string name="resolution_native">Inbyggd</string>
+    <string name="resolution_invalid">Ange en giltig bredd och höjd.</string>
+    <string name="launch_preparing">Läser in…</string>
+    <string name="launch_preparing_game">Förbereder OpenMW…</string>
+    <string name="launch_failed_title">OpenMW kunde inte startas</string>
+    <string name="launch_failed_unknown">Okänt fel när OpenMW förbereddes.</string>
+    <string name="user_configuration">Användarkonfiguration</string>
+    <string name="action_theme_submenu">Tema ›</string>
+    <string name="theme_set_to">Tema inställt på %1$s</string>
+    <string name="about_port_info">Den här portningen är gjord av Andreas \'Andiweli\' Stürmer\nBaserad på en portning av CaveBros\nOpenMW av OpenMW-teamet sedan 2008</string>
+    <string name="third_party_notices">Information om tredjepartskomponenter</string>
+    <string name="chooser_select">Välj</string>
+    <string name="chooser_create">Skapa</string>
+    <string name="chooser_new_folder">Ny mapp</string>
+    <string name="chooser_cancel">Avbryt</string>
+    <string name="chooser_heading">Välj lagring</string>
+    <string name="chooser_internal_storage">Intern lagring</string>
+    <string name="chooser_free_space">%1$s ledigt</string>
+    <string name="chooser_folder_created">Mapp skapad</string>
+    <string name="chooser_folder_error">Ett fel inträffade när mappen skapades. Försök igen.</string>
+    <string name="chooser_folder_name">Mappnamn</string>
+    <string name="chooser_empty_folder_name">Mappnamnet får inte vara tomt</string>
+    <string-array name="pref_encoding_entries">
+        <item>Central- och östeuropeisk (win1250)</item>
+        <item>Kyrillisk (win1251)</item>
+        <item>Latinsk (win1252)</item>
+        <item>Arabic (win1256)</item>
+    </string-array>
+    <string-array name="gs_factor_strength_into_hand_to_hand_combat_entries">
+        <item>Av</item>
+        <item>Påverka varulvar</item>
+        <item>Påverka inte varulvar</item>
+    </string-array>
+    <string-array name="gs_show_owned_entries">
+        <item>Av</item>
+        <item>Endast verktygstips</item>
+        <item>Endast sikte</item>
+        <item>Verktygstips och sikte</item>
+    </string-array>
+    <string-array name="pref_omw051_controller_trigger_sensitivity_entries">
+        <item>OpenMW-standard (15/16 tryck, 13/16 släpp)</item>
+        <item>Balanserad (12/16 tryck, 10/16 släpp)</item>
+        <item>Känslig (8/16 tryck, 6/16 släpp)</item>
+    </string-array>
+    <string-array name="pref_textureShrinking_entries">
+        <item>Ingen</item>
+        <item>Låg</item>
+        <item>Medel</item>
+        <item>Hög</item>
+    </string-array>
+    <string-array name="pref_shadersDir_entries">
+        <item>Original</item>
+        <item>Modifierad</item>
+        <item>Zesterer</item>
+        <item>OMWFX</item>
+    </string-array>
+    <string-array name="pref_mouse_mode_entries">
+        <item>Hybrid</item>
+        <item>Relativ joystickstyrning</item>
+        <item>Absolut pekstyrning</item>
+    </string-array>
+    <string-array name="gs_shadow_quality_entries">
+        <item>Låg</item>
+        <item>Medel</item>
+        <item>Hög</item>
+        <item>Mycket hög</item>
+    </string-array>
+    <string-array name="gs_shadow_distance_entries">
+        <item>Kort</item>
+        <item>Medel</item>
+        <item>Lång</item>
+    </string-array>
+    <string name="osk_shift">Skift</string>
+    <string name="osk_caps_lock">Caps Lock</string>
+    <string name="osk_language">Språk</string>
+    <string name="sdl_error_title">SDL-fel</string>
+    <string name="sdl_exit">Avsluta</string>
+    <string name="sdl_start_error">Ett fel inträffade när appen skulle startas. Försök igen och/eller installera om appen.\n\nFel: %1$s</string>
+    <string name="navmesh_generating_cache">SKAPAR NAVMESH-CACHE</string>
+
+    <!-- Game folder validation -->
+    <string name="game_files_checking">Kontrollerar spelfiler…</string>
+    <string name="game_files_selection_unchanged">Det tidigare valet har inte ändrats.</string>
+    <string name="game_files_storage_unavailable_title">Lagringsplatsen är inte tillgänglig</string>
+    <string name="game_files_storage_unavailable_message">Lagringen som innehåller spelmappen är inte tillgänglig just nu:\n%1$s\n\nSätt i SD-kortet eller vänta tills Android har monterat det. Det sparade valet behålls.</string>
+    <string name="game_files_folder_not_found_title">Mappen hittades inte</string>
+    <string name="game_files_folder_not_found_message">Spelmappen hittades inte:\n%1$s\n\nHar den flyttats eller bytt namn? Om den ligger på ett SD-kort, kontrollera att kortet är isatt.</string>
+    <string name="game_files_access_denied_title">Ingen läsbehörighet</string>
+    <string name="game_files_access_denied_message">OpenMW får inte läsa den här filen eller mappen:\n%1$s\n\nKontrollera i appens inställningar att lagringsbehörigheten är beviljad. Om den är det tillåter den här enheten inte direkt åtkomst till den här platsen; kopiera då spelfilerna till den interna lagringen.</string>
+    <string name="game_files_missing_message">I den valda mappen saknas:\n%1$s\n\nVälj mappen som innehåller filen ”Morrowind.ini” och katalogen ”Data Files”.</string>
+    <string name="game_files_read_failed_title">Läsfel</string>
+    <string name="game_files_read_failed_message">Filen kunde inte läsas:\n%1$s\n(%2$s)</string>
+
+    <!-- Flytt av den gamla lagringsplatsen -->
+    <string name="legacy_storage_migration_progress">Flyttar sparfiler och inställningar till den nya lagringsplatsen…</string>
+    <string name="legacy_storage_migration_done_title">Sparfiler flyttade</string>
+    <string name="legacy_storage_migration_conflicts_message">Vissa filer fanns både på den gamla och den nya platsen. Filerna på den nya platsen behölls; de avvikande gamla versionerna sparades här:\n%1$s</string>
+    <string name="legacy_storage_migration_failed_title">Sparfiler inte flyttade</string>
+    <string name="legacy_storage_migration_no_space_message">Dina sparfiler och inställningar i\n%1$s\nkunde inte flyttas eftersom %2$s ledigt utrymme behövs. Den gamla mappen ändrades inte. Frigör utrymme och starta om OpenMW för att försöka igen.</string>
+    <string name="legacy_storage_migration_failed_message">Dina sparfiler och inställningar i\n%1$s\nkunde inte flyttas (%2$s). Den gamla mappen ändrades inte. Starta om OpenMW för att försöka igen.</string>
+
+    <!-- Saves folder and swipe to look -->
+    <string name="user_data_dir_title">Mapp för sparfiler</string>
+    <string name="user_data_dir_default_summary">Standard (appens lagring)</string>
+    <string name="user_data_dir_hint">Välj en mapp, t.ex. för Syncthing.</string>
+    <string name="user_data_dir_choose">Välj mapp…</string>
+    <string name="user_data_dir_use_default">Använd appens standardmapp</string>
+    <string name="user_data_dir_copying">Kopierar sparfiler…</string>
+    <string name="user_data_dir_changed_message">Sparfiler och skärmdumpar lagras nu i:\n%1$s\n\nFiler kopierade från den tidigare mappen: %2$d. Befintliga sparfiler ersattes inte och den tidigare mappen lämnades oförändrad.\n\nTips: undanta navmesh.db från synkroniseringen, det är en stor cachefil.</string>
+    <string name="user_data_dir_error_title">Mappen för sparfiler ändrades inte</string>
+    <string name="user_data_dir_error_message">OpenMW kan inte skriva till den här mappen:\n%1$s\n(%2$s)\n\nDen tidigare mappen för sparfiler används fortfarande.</string>
+    <string name="user_data_dir_unavailable">Mappen för sparfiler är inte tillgänglig eller skrivskyddad:\n%1$s\n\nSätt i lagringsmediet, kontrollera lagringsbehörigheten eller välj en annan mapp i startprogrammet.</string>
+    <string name="pref_swipe_to_look_title">Svep för att titta</string>
+    <string name="pref_swipe_to_look_summary">Svep på fri skärmyta för att se dig omkring.</string>
+    <string name="pref_cheats_enabled_title">Aktivera fusk</string>
+    <string name="pref_cheats_enabled_summary">Sidan Alternativ &gt; Skript &gt; Fusk i spelet ger guld.</string>
+
+    <!-- Launcher home screen -->
+    <string name="launcher_play">Spela</string>
+    <string name="launcher_up_to_date">Aktuell</string>
+    <string name="launcher_update">Uppdatera</string>
+    <string name="launcher_section_game_data">Speldata</string>
+    <string name="launcher_section_settings">Inställningar</string>
+    <string name="launcher_game_data_title">Morrowind</string>
+    <string name="launcher_status_found">Hittad</string>
+    <string name="launcher_status_missing">Hittades inte</string>
+    <string name="launcher_status_not_chosen">Inte vald</string>
+    <string name="launcher_game_data_not_chosen">Välj mappen som innehåller Data Files och Morrowind.ini.</string>
+    <string name="launcher_choose_folder">Välj mapp</string>
+    <string name="launcher_language">Språk</string>
+    <string name="launcher_tile_game_settings_summary">Spelmekanik, motor, avancerat</string>
+    <string name="launcher_tile_graphics">Grafik och prestanda</string>
+    <string name="launcher_tile_graphics_summary">Upplösning, shaders, bildfrekvens</string>
+    <string name="launcher_tile_controls">Kontroller</string>
+    <string name="launcher_tile_controls_summary">Handkontroll, pekskärm, handhållet läge</string>
+    <string name="launcher_tile_audio">Ljud</string>
+    <string name="launcher_tile_audio_summary">Dopplereffekt, lyssnarposition</string>
+    <string name="launcher_tile_mods">Moddar</string>
+    <string name="launcher_tile_mods_summary">Plugins, laddordning, markväxtlighet</string>
+    <string name="launcher_tile_help">Hjälp och info</string>
+    <string name="launcher_tile_help_summary">Om, återställ, GitHub</string>
+    <string name="launcher_hint_navigate">Styrkors: navigera · A: välj</string>
+    <string name="launcher_hint_play">START: spela</string>
+    <string name="launcher_help_github">Projektet på GitHub</string>
+    <string name="launcher_back">‹ Tillbaka</string>
+    <string name="launcher_hint_back_play">B: tillbaka · START: spela</string>
+    <string name="launcher_on">PÅ</string>
+    <string name="launcher_off">AV</string>
+    <string name="launcher_section_onscreen">Ordna skärmknappar</string>
+    <string name="launcher_section_areas">Områden</string>
+    <string name="launcher_gs_game_mechanics_summary">Strid, följeslagare, sparfiler</string>
+    <string name="launcher_gs_visuals_summary">Avlägsen terräng, shaders, dimma</string>
+    <string name="launcher_gs_shadows_summary">Skuggkastare, kvalitet, avstånd</string>
+    <string name="launcher_gs_animations_summary">Rörelse med mera</string>
+    <string name="launcher_gs_interface_summary">Typsnitt, verktygstips, karta</string>
+    <string name="launcher_gs_engine_summary">Markväxtlighet, navmesh, trådar</string>
+    <string name="launcher_gs_advanced_summary">Sparmapp, fusk, startalternativ</string>
+</resources>
